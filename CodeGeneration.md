@@ -7,12 +7,10 @@ Create a basic registration module in React with the following components and fe
 
 ### 1. Login Page
 - Create a responsive login page with the following fields:
-  - Email input field (with validation)
-  - Password input field (with password masking)
-  - "Remember Me" checkbox
+  - Email input field
+  - Password input field 
   - "Login" button
   - Link to navigate to the registration page
-  - "Forgot Password?" link
 - Implement form validation:
   - Email must be in valid format
   - Password must not be empty
@@ -40,20 +38,6 @@ Create a basic registration module in React with the following components and fe
 
 ### 3. Dashboard
 - Create a basic dashboard that displays after successful login:
-  - Header with user name and logout button
-  - Welcome message with personalized greeting
-  - Navigation sidebar with menu items:
-    - Dashboard (active)
-    - Profile
-    - Settings
-  - Main content area showing:
-    - User statistics cards (placeholder data)
-    - Recent activity section (placeholder data)
-    - Quick actions section
-- Implement logout functionality that:
-  - Clears user session
-  - Redirects back to login page
-- Make the dashboard responsive for mobile and desktop views
 
 ## Technical Specifications
 
@@ -76,10 +60,6 @@ src/
 │   │   └── Register.module.css
 │   └── Dashboard/
 │       ├── Dashboard.jsx
-│       ├── Dashboard.module.css
-│       ├── Header.jsx
-│       ├── Sidebar.jsx
-│       └── MainContent.jsx
 ├── context/
 │   └── AuthContext.jsx
 ├── utils/
